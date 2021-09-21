@@ -11,7 +11,7 @@
 
 // Part 1 answer 👇🏻 ...
 
-const  image = "https://th.bing.com/th/id/OIP.HdCuFbv8_JGeUZe0Qcj6ZQHaE8?pid=ImgDet&rs=1"
+let  image = "https://th.bing.com/th/id/OIP.HdCuFbv8_JGeUZe0Qcj6ZQHaE8?pid=ImgDet&rs=1"
 let yearOfBirth = 1996
 let fullName = "amnah hasan"
 let hobby = "eat"
