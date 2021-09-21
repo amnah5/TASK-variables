@@ -13,7 +13,7 @@
 
 const  image = "https://th.bing.com/th/id/OIP.HdCuFbv8_JGeUZe0Qcj6ZQHaE8?pid=ImgDet&rs=1"
 let yearOfBirth = 1996
-let fullName = "amnah alduhaileb"
+let fullName = "amnah hasan"
 let hobby = "eat"
 let funFact = " : "
 
@@ -47,27 +47,26 @@ let funFact = " : "
  * Increment your hacker score
  * */
 
-let stars = 0;
+ let stars = 0;
 
-function incrementBy1() {
-  let stars = 0;
-stars++
-  // Increment stars by 1 👇🏻
-}
-function decrementBy1() {
-  let stars = 1;
-stars--
-console.log(stars)
-  // decrement stars by 1 👇🏻
-}
-
-function incrementBy2() {
-  // Increment stars by 2 👇🏻
-}
-function decrementBy2() {
-  // decrement stars by 2 👇🏻
-}
-
+ function incrementBy1() {
+   // Increment stars by 1
+   stars++ ; 
+ }
+ function decrementBy1() {
+   // decrement stars by 1 👇🏻
+   stars -= 1;
+   console.log(stars)
+ }
+ 
+ function incrementBy2() {
+   // Increment stars by 2
+   stars += 2 ; 👇🏻
+ }
+ function decrementBy2() {
+   // decrement stars by 2
+   stars -= 2 👇🏻
+ }
 
 
 
